@@ -1,0 +1,30 @@
+1. data generator
+2. compression lib
+3. executable compressor
+4. test scripts
+5. visualizer
+
+1. data generator
+    configurable delta time distribution
+    normal distribution, uniform distribution, ...
+
+2. compression lib
+    comp/decomp
+    id
+    deflate
+    delta | bitpack
+    delta | deflate
+    delta | bitpack | deflate
+
+3. executable compressor
+    comp/decomp
+    integrated generator/compressor/io
+    monitor each thread blockings
+    sanity check
+
+4. test scripts
+    automation..
+
+5. visualizer
+    python plots..
+    
